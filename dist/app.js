@@ -39,8 +39,9 @@ const container = document.getElementById("conteudo-curriculo");
 // Criar um array que aceite qualquer coisa que assine o contrato do curriculo
 const meuCurriculo = [
     new ExperienciaProfissional("Desenvolvedor Front-end", "Tech Solutions", "2023 - Presente"),
-    new FormacaoAcademica("Análise e Desenvolvimento de Sistemas", "Universidade de São Paulo", "2022"),
-    new ExperienciaProfissional("Estagiário de TI", "Ada Tech", "2021 - 2023")
+    new FormacaoAcademica("Análise e Desenvolvimento de Sistemas", "Universidade de São Paulo", 2022),
+    new ExperienciaProfissional("Estagiário de TI", "Ada Tech", "2021 - 2023"),
+    new FormacaoAcademica("Curso de JavaScript", "Udemy", 2021)
 ];
 // Iterando sobre os itens e jogando no HTML
 if (container) {
